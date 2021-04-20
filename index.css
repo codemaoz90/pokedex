@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	width: 90%;
+	margin: 0 auto;
+}
+h5 {
+	font-style: italic;
+}
+.card-body > h5:first-child {
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+p:before {
+	content: "- ";
+}
+.card {
+	background-color: #dc3545;
+	color: white;
+	width: 250px;
+}
+.card-img-top {
+	width: 96px;
+	height: 96px;
+	align-self: center;
+}
+.form-control {
+	width: 300px;
+}
+.card-body {
+	padding: 0;
+	border-top: 1px solid rgb(238, 226, 226);
+}
